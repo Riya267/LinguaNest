@@ -14,7 +14,8 @@ const buttonVariants = cva(
         danger: "bg-rose-500 text-primary-foreground hover:bg-rose-500/90 active:border-b-0 border-2 border-rose-600 border-b-4",
         basic: "border-2 border-b-4 border-slate-200 bg-white text-slate-500 hover:bg-slate-100 active:border-b-2",
         link: "text-blue-600 underline-offset-4 hover:underline active:border-b-0",
-        ghost: "bg-transparent ttext-slate-500"
+        secondaryOutline: "bg-blue-100 text-blue-500 active:border-b-0 border-2 border-blue-300 border-b-4",
+        ghost: "bg-transparent"
       },
       size: {
         default: "h-11 px-4 py-2",
